@@ -79,7 +79,7 @@ Git showed warnings when pushing from Windows.
 **Solution:**  
 Understood it was related to line endings and confirmed it doesn’t affect production deployment.
 
-
+----
 
 
  📦 Installation (Local Setup)
