@@ -1,37 +1,4 @@
-🚀 Smart Bookmark App
 
-A full-stack bookmark management web app built with Next.js and Supabase.
-
- 🌍 Live Demo
-
-👉 https://smart-bookmark-app-vert-pi.vercel.app/
-
----
-
- ✨ Features
-
-- 🔐 Authentication (Supabase Auth)
-- 🛡 Row Level Security (RLS)
-- ⚡ Realtime updates
-- ⭐ Favorites
-- 🏷 Tagging system
-- 📝 Notes for bookmarks
-- 🔎 Smart search (title, URL, tags, notes)
-- 🎨 Modern responsive UI
-- 🚀 Deployed on Vercel
-
----
-
- 🛠 Tech Stack
-
-- Next.js 14+
-- TypeScript
-- Supabase
-- PostgreSQL
-- Tailwind CSS
-- Vercel
-
----
 
  🚀 Smart Bookmark App
 
