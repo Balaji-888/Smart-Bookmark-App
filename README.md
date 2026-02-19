@@ -68,6 +68,53 @@ A full-stack bookmark management web app built with Next.js and Supabase.
 
 ---
 
+
+---
+
+## 🧠 Challenges & Solutions
+
+### 1️⃣ Implementing Row Level Security (RLS)
+
+**Problem:**  
+Ensuring users could only access their own bookmarks.
+
+**Solution:**  
+Configured Supabase Row Level Security policies using `auth.uid()` to restrict access at the database level.  
+This guarantees data isolation even if frontend logic fails.
+
+---
+
+### 2️⃣ Search Across Multiple Fields (Title, URL, Tags, Notes)
+
+**Problem:**  
+Creating a flexible search that works across different columns including array-based tags.
+
+**Solution:**  
+Used Supabase `or()` filtering to search across multiple fields and optimized tag storage structure for efficient querying.
+
+---
+
+### 3️⃣ Deployment Environment Variables
+
+**Problem:**  
+The app worked locally but failed after deployment.
+
+**Solution:**  
+Configured environment variables in Vercel and ensured `.env.local` was not committed to GitHub.
+
+---
+
+### 4️⃣ Git Line Ending Warnings (CRLF vs LF)
+
+**Problem:**  
+Git showed warnings when pushing from Windows.
+
+**Solution:**  
+Understood it was related to line endings and confirmed it doesn’t affect production deployment.
+
+
+
+
  📦 Installation (Local Setup)
 
 1. Clone the repo:
