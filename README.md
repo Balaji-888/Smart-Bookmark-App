@@ -6,7 +6,7 @@ A full-stack bookmark management web app built with Next.js and Supabase.
 
  🌍 Live Demo
 
-👉 https://your-vercel-url.vercel.app
+👉 https://smart-bookmark-app-vert-pi.vercel.app/
 
 ---
 
